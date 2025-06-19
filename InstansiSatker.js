@@ -16,8 +16,8 @@ const url = process.env.API_URL_IS; // Use environment variable for URL
 
 // Define the spreadsheet ID and range
 const spreadsheetId = process.env.SPREADSHEET_ID; // Use environment variable for Spreadsheet ID
-const clearRange = 'Nontender-Kontrak2024!A:AK'; // Range to clear
-const updateRange = 'Nontender-Kontrak2024!A1'; // Range to update
+const clearRange = 'Nontender-Kontrak2025!A:AK'; // Range to clear
+const updateRange = 'Nontender-Kontrak2025!A1'; // Range to update
 
 async function fetchData() {
     try {
