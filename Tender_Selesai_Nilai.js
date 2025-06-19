@@ -16,8 +16,8 @@ const url = process.env.API_URL_TSN; // Use environment variable for URL
 
 // Define the spreadsheet ID and range
 const spreadsheetId = process.env.SPREADSHEET_ID; // Use environment variable for Spreadsheet ID
-const clearRange = 'RealisasiPencatNonT2024!A:ZZ'; // Range to clear
-const updateRange = 'RealisasiPencatNonT2024!A1'; // Range to update
+const clearRange = 'RealisasiPencatNonT2025!A:ZZ'; // Range to clear
+const updateRange = 'RealisasiPencatNonT2025!A1'; // Range to update
 
 async function fetchData() {
     try {
